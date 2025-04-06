@@ -1,0 +1,5 @@
+K = input()
+N = int(input())
+R = int(input())
+number = int(K * N)
+print(number * R)
