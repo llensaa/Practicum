@@ -1,1 +1,1 @@
-В АФРИКЕ ХОРОШАЯ ПОГОДА.
+HELLO PYTHON, HELLO WORLD!

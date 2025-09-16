@@ -1,1 +1,1 @@
-В Африке хорошая погода.
+Hello Python, hello world!
