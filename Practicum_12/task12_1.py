@@ -1,4 +1,5 @@
-text = input("Введите текст: ")
+'''
+text = input()
 
 max_count = 0
 current_count = 0
@@ -12,3 +13,15 @@ for i in text:
         current_count = 0
 
 print(max_count)
+'''
+
+
+from re import *
+s = input()
+reg_ex = r' +'
+
+m = 0
+for r_item in finditer(reg_ex, s):
+    m = max(m, len(r_item.group()))
+
+print(m)

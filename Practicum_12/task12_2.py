@@ -1,7 +1,8 @@
+'''
 text = input()
 
 if not text:
-    print("Максимальное количество последовательных одинаковых символов: 0")
+    print("0")
 else:
     max_count = 1
     current_count = 1
@@ -14,4 +15,16 @@ else:
         else:
             current_count = 1
 
-    print("Максимальное количество последовательных одинаковых символов:", max_count)
+    print(max_count)
+'''
+
+from re import *
+
+s = input()
+reg_ex = r'(.)\1+'
+
+m = 0
+for r_item in finditer(reg_ex, s):
+    m = max(m, len(r_item.group()))
+
+print(m)
