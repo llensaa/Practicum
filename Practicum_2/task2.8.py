@@ -1,5 +1,0 @@
-numbers = input().split()
-N = int(numbers[0])
-M = int(numbers[1])
-per_person = M // (N + 1)
-print(per_person)

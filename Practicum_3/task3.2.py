@@ -1,5 +1,0 @@
-in_seconds = int(input())
-hours = in_seconds // (60 * 60)
-minutes = int((in_seconds / 60) - (hours * 60))
-seconds = int(in_seconds - ((minutes * 60) + (hours * 60 * 60)))
-print(f'{hours} часов {minutes} минут {seconds} секунд')
