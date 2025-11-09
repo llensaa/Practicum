@@ -1,4 +1,4 @@
-def multiple(A, B, N):
+def multiple(A, B, N) -> set[int]:
     c = min(A, B)
     mult = set()
     for i in range(1, int(c ** 0.5) + 1):

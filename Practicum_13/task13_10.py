@@ -1,4 +1,4 @@
-def numbers(A, B):
+def numbers(A, B) -> None:
     set_num = {1,3,4,8,9}
     list_num = []
     for i in range(min(A, B), max(A, B) + 1):

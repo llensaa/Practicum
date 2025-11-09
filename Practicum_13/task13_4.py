@@ -1,4 +1,4 @@
-def make_payment(P):
+def make_payment(P) -> None:
     if 20 <= P <= 1000:
         print('Успех')
     else: 

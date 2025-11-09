@@ -1,4 +1,4 @@
-def sales(price, card, day):
+def sales(price, card, day) -> float:
     sale = 0
     if 5000 <= price < 15000:
         sale += 3

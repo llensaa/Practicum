@@ -1,4 +1,4 @@
-def p(x):
+def p(x) -> bool:
     if x == 1:
         return False
     for k in range(2, int(x ** 0.5) + 1):

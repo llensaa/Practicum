@@ -1,4 +1,4 @@
-def card(price):
+def card(price) -> int:
     match price:
         case 5 | 10:
             price = price

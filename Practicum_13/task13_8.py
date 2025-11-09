@@ -1,4 +1,4 @@
-def convert_date_time(str):
+def convert_date_time(str) -> None:
     try:
         date, time = str.split()
         month, day, year = map(int, date.split('/'))

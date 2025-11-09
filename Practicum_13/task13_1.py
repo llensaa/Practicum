@@ -1,6 +1,6 @@
 import re
 
-def letters(str): 
+def letters(str) -> None: 
     text = re.sub(r'[^А-Яа-я]', '', str.lower())
     counter_vow = 0
     counter_con = 0
