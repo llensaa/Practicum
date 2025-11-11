@@ -3,5 +3,5 @@ def line(elements):
     line_el = " ".join(sorted_el)
     return line_el
 
-elements = list(input().split())
+elements = input().split()
 print(line(elements))
