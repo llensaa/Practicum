@@ -2,7 +2,7 @@ lst = list(map(int, input().split()))
 command = input()
 
 direction = command[0]
-steps = int(command[1:])
+steps = int(command[1])
 n = len(lst)
 effective_steps = steps % n
 
