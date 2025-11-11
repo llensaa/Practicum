@@ -1,4 +1,4 @@
-def count_holes_letters(word):
+def count_holes_letters(word) → int:
     holes_letters = {'a', 'b', 'd', 'e', 'g', 'o', 'p', 'q'}
     count = 0
     for i in word:
