@@ -1,6 +1,6 @@
 import re
 
-def clean_word(word):
+def clean_word(word) -> str:
     return re.sub(r'[^\w]', '', word.lower())
 
 text_lines = []
