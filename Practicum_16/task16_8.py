@@ -1,4 +1,4 @@
-from itertools import chain, combinations
+from itertools import combinations
 
 
 def get_all_subsets(numbers_str: str) -> list:
