@@ -15,7 +15,7 @@ def get_k_subsets(numbers_str: str, K: int) -> list:
     numbers = list(map(int, numbers_str.split()))
     numbers.sort()
     
-    if K < 0 or K > len(numbers):
+    if K < 0:
         return []
     
     k_subsets = [list(combo) for combo in combinations(numbers, K)]
