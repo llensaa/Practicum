@@ -24,16 +24,9 @@ class StrandsDNA:
         if not self.all_strands:
             return ''
         
-        # Находим максимальную длину
         max_len = max(len(s) for s in self.all_strands)
-        
-        # Отбираем цепочки максимальной длины
         max_strands = [s for s in self.all_strands if len(s) == max_len]
-        
-        # Убираем дубликаты и сортируем
         unique_strands = sorted(set(max_strands))
-        
-        # Возвращаем строку
         return ' '.join(unique_strands)
     
     def __str__(self):
